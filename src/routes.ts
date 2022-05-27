@@ -23,6 +23,10 @@ export const routes: Route[] = [
     name: 'Example',
     key: 'example',
   },
+  {
+    name: 'categories',
+    key: 'categories',
+  },
 ];
 
 export const getName = (path: string, routes) => {
